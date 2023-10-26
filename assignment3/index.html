@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato&family=Nunito+Sans:opsz,wght@6..12,300;6..12,400&family=Open+Sans:wght@300&family=Quicksand:wght@600&family=Roboto:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <div class="apa">
+        <div class="container">
+            <h1>COVID-19 TRACKER</h1>
+
+            <div class="cari">
+                <input type="text" id="countryInput" placeholder="Masukkan nama negara">
+                <button id="searchButton">Get Data</button>
+            </div>
+            
+            <p class="active">Active Cases<span id="activeCases"></span></p>
+            <p class="newcase">New Cases: <span id="newCases"></span></p>
+            <p class="recovered">Recovered Cases: <span id="recoveredCases"></span></p>
+            <p class="totalcases">Total Cases: <span id="totalCases"></span></p>
+            <p class="totaldeaths">Total Deaths: <span id="totalDeaths"></span></p>
+            <p class="totaltest">Total Tests: <span id="totalTests"></span></p>
+            <div id="covidData"></div>
+        </div>
+    </div>
+    <script src="assets/src.js"></script>
+</body>
+
+</html>
