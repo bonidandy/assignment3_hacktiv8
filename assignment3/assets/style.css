@@ -19,8 +19,8 @@
 }
 
 .container{
-    width: 500px;
-    height: 500px;
+    width: 31.25rem;
+    height: 31.25rem;
     background-color: #F8B732;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -37,7 +37,7 @@ h1{
     grid-area: judul;
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 0.625rem;
 }
 
 .cari{
@@ -49,19 +49,19 @@ h1{
 
 #countryInput{
     display: flex;
-    width: 200px;
-    height: 30px;
+    width: 12.5rem;
+    height: 1.875rem;
     color: black;
     justify-self: center;
-    margin-right: 5px;
-    border-radius: 10px;
+    margin-right: 0.313rem;
+    border-radius: 0.625;
 }
 
 
 #searchButton{
-    width: 80px;
-    height: 35px;
-    border-radius: 20px;
+    width: 5rem;
+    height: 2.188rem;
+    border-radius: 1.25rem;
     background-color: rgb(255,73,29);
     justify-self: flex-start;
     cursor: pointer;
@@ -74,134 +74,134 @@ h1{
 
 .active{
     grid-area: aktif;
-    width: 150px;
-    height: 130px;
+    width: 9.375rem;
+    height: 8.125rem;
     background-color: #FE6E04;
-    border-radius: 5px;
-    margin-left: 5px;
-    margin-bottom: 50px;
+    border-radius: 0.313rem;
+    margin-left: 0.313rem;
+    margin-bottom: 3.125rem;
 }
 
 .active p{
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 .active i{
-    margin-top: 18px;
-    margin-bottom: 5px;
+    margin-top: 1.125rem;
+    margin-bottom: 0.313rem;
     display: flex;
     justify-content: center; 
 }
 
 .newcase{
     grid-area: new;
-    width: 150px;
-    height: 130px;
+    width: 9.375rem;
+    height: 8.125rem;
     background-color: #FD780D;
-    border-radius: 5px;
-    margin-left: 5px;
+    border-radius: 0.313rem;
+    margin-left: 0.313rem;
 }
 
 .newcase p{
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 .newcase i{
-    margin-top: 18px;
-    margin-bottom: 5px;
+    margin-top: 1.125rem;
+    margin-bottom: 0.313rem;
     display: flex;
     justify-content: center; 
 }
 
 .recovered{
     grid-area: recover;
-    width: 150px;
-    height: 130px;
+    width: 9.375rem;
+    height: 8.125rem;
     background-color: #FD8419;
-    border-radius: 5px;
-    margin-left: 5px;
+    border-radius: 0.313rem;
+    margin-left: 0.313rem;
 }
 
 .recovered p{
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 .recovered i{
-    margin-top: 18px;
-    margin-bottom: 5px;
+    margin-top: 1.125rem;
+    margin-bottom: 0.313rem;
     display: flex;
     justify-content: center; 
 }
 
 .totalcases{
     grid-area: cases;
-    width: 150px;
-    height: 130px;
+    width: 9.375rem;
+    height: 8.125rem;
     background-color: #FF9124;
-    border-radius: 5px;
-    margin-left: 5px;
-    margin-bottom: 70px;
+    border-radius: 0.313rem;
+    margin-left: 0.313rem;
+    margin-bottom: 4.375rem;
 }
 
 .totalcases p{
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 .totalcases i{
-    margin-top: 18px;
-    margin-bottom: 5px;
+    margin-top: 1.125rem;
+    margin-bottom: 0.313rem;
     display: flex;
     justify-content: center; 
 }
 
 .totaldeaths{
     grid-area: deaths;
-    width: 150px;
-    height: 130px;
+    width: 9.375rem;
+    height: 8.125rem;
     background-color: #FDA83D;
-    border-radius: 5px;
-    margin-left: 5px;
+    border-radius: 0.313rem;
+    margin-left: 0.313rem;
 }
 
 .totaldeaths p{
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 .totaldeaths i{
-    margin-top: 18px;
-    margin-bottom: 5px;
+    margin-top: 1.125rem;
+    margin-bottom: 0.313rem;
     display: flex;
     justify-content: center; 
 }
 
 .totaltest{
     grid-area: tests;
-    width: 150px;
-    height: 130px;
+    width: 9.375rem;
+    height: 8.125rem;
     background-color: #FFB64D;
-    border-radius: 5px;
-    margin-left: 5px;
+    border-radius: 0.313rem;
+    margin-left: 0.313rem;
 }
 
 .totaltest p{
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 .totaltest i{
-    margin-top: 18px;
-    margin-bottom: 5px;
+    margin-top: 1.125rem;
+    margin-bottom: 0.313rem;
     display: flex;
     justify-content: center; 
 }
