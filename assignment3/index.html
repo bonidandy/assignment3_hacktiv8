@@ -11,6 +11,7 @@
         href="https://fonts.googleapis.com/css2?family=Lato&family=Nunito+Sans:opsz,wght@6..12,300;6..12,400&family=Open+Sans:wght@300&family=Quicksand:wght@600&family=Roboto:wght@400;500&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 
 <body>
@@ -23,12 +24,12 @@
                 <button id="searchButton">Get Data</button>
             </div>
             
-            <p class="active">Active Cases<span id="activeCases"></span></p>
-            <p class="newcase">New Cases: <span id="newCases"></span></p>
-            <p class="recovered">Recovered Cases: <span id="recoveredCases"></span></p>
-            <p class="totalcases">Total Cases: <span id="totalCases"></span></p>
-            <p class="totaldeaths">Total Deaths: <span id="totalDeaths"></span></p>
-            <p class="totaltest">Total Tests: <span id="totalTests"></span></p>
+            <div class="active"> <i class="fa-brands fa-creative-commons-sampling fa-xl"></i> <p>Active Cases</p> <p id="activeCases"></p> </div>
+            <div class="newcase"> <i class="fa-solid fa-house-medical fa-xl"></i> <p>New Cases</p> <p id="newCases"></p> </div>
+            <div class="recovered"> <i class="fa-solid fa-briefcase-medical fa-xl"></i> <p>Recovered Cases</p> <p id="recoveredCases"></p> </div>
+            <div class="totalcases"> <i class="fa-solid fa-bars fa-lg"></i> <p>Total Cases</p> <p id="totalCases"></p> </div>
+            <div class="totaldeaths"> <i class="fa-solid fa-skull fa-xl"></i><p>Total Deaths</p> <p id="totalDeaths"></p> </div>
+            <div class="totaltest"> <i class="fa-solid fa-house-medical-circle-check fa-xl"></i> <p>Total Tests</p> <p id="totalTests"></p> </div>
             <div id="covidData"></div>
         </div>
     </div>

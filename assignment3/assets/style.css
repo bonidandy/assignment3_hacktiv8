@@ -30,7 +30,6 @@
     "search search search"
     "aktif new recover"
     "cases deaths tests";
-    /* gap: 5px; */
     border-radius: 8px;
 }
 
@@ -38,7 +37,7 @@ h1{
     grid-area: judul;
     display: flex;
     justify-content: center;
-    margin-top: 25px;
+    margin-top: 10px;
 }
 
 .cari{
@@ -49,7 +48,6 @@ h1{
 
 
 #countryInput{
-    /* grid-area: search; */
     display: flex;
     width: 200px;
     height: 30px;
@@ -59,54 +57,151 @@ h1{
     border-radius: 10px;
 }
 
-input{
-    outline: 0px;
-}
 
 #searchButton{
-    /* grid-area: get; */
     width: 80px;
     height: 35px;
     border-radius: 20px;
     background-color: rgb(255,73,29);
     justify-self: flex-start;
+    cursor: pointer;
 }
 
-
-/* #covidData{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-area: 
-    "aktif new recover"
-    "cases deaths tests";
-} */
-
-p{
-    display: block;
-    
+#searchButton:hover{
+    background-color: #49BBAB;
 }
+
 
 .active{
     grid-area: aktif;
+    width: 150px;
+    height: 130px;
+    background-color: #FE6E04;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-bottom: 50px;
+}
+
+.active p{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.active i{
+    margin-top: 18px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center; 
 }
 
 .newcase{
     grid-area: new;
+    width: 150px;
+    height: 130px;
+    background-color: #FD780D;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.newcase p{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.newcase i{
+    margin-top: 18px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center; 
 }
 
 .recovered{
     grid-area: recover;
+    width: 150px;
+    height: 130px;
+    background-color: #FD8419;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.recovered p{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.recovered i{
+    margin-top: 18px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center; 
 }
 
 .totalcases{
     grid-area: cases;
+    width: 150px;
+    height: 130px;
+    background-color: #FF9124;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-bottom: 70px;
+}
+
+.totalcases p{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.totalcases i{
+    margin-top: 18px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center; 
 }
 
 .totaldeaths{
     grid-area: deaths;
+    width: 150px;
+    height: 130px;
+    background-color: #FDA83D;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.totaldeaths p{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.totaldeaths i{
+    margin-top: 18px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center; 
 }
 
 .totaltest{
     grid-area: tests;
+    width: 150px;
+    height: 130px;
+    background-color: #FFB64D;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.totaltest p{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.totaltest i{
+    margin-top: 18px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center; 
 }
